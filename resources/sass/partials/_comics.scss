@@ -1,9 +1,30 @@
-.comics-list {
-    padding: 0;
-    display: grid;
-    grid-template-columns: repeat(auto-fill, minmax(160px, 1fr)); 
-    grid-gap: 1rem; 
-    img {
-        width: 100%;
+.comics {
+    .line {
+        height: 16px;
+        background: $blue-col;
+    }
+    background: $black;
+    .comics-list {
+        padding: 0;
+        display: grid;
+        grid-template-columns: repeat(auto-fill, minmax(160px, 1fr)); 
+        grid-gap: 1rem; 
+        img {
+            width: 100%;
+        }
+    }
+    .btn {
+        width: 150px;
+        line-height: 40px;
+        display: block;
+        margin: 0 auto;
+        text-align: center;
+        background: $blue-col;
+        a {
+            cursor: pointer;
+            color: $white;
+            text-transform: uppercase;
+        }
     }
 }
+

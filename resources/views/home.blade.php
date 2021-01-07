@@ -9,8 +9,9 @@
             </div>
         </section>
 
-        <div class="comics mt-3 mb-3">
-            <div class="wrapper">
+        <div class="comics mb-3">
+            <div class="line"></div>
+            <div class="wrapper pt-2 pb-6">
                 <ul class="comics-list no-list">
                     @foreach ($comics as $comic)
                         <li>
@@ -21,7 +22,11 @@
                         </li>
                     @endforeach
                 </ul>
+                <div class="btn">
+                    <a href="#" class="no-list">Load more</a>
                 </div>
+            </div>
+            
             </div>
         </div>
 

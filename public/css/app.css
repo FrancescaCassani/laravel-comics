@@ -249,12 +249,32 @@
   background-position: center;
 }
 
-.comics-list {
+.comics {
+  background: #000;
+}
+.comics .line {
+  height: 16px;
+  background: #0282f9;
+}
+.comics .comics-list {
   padding: 0;
   display: grid;
   grid-template-columns: repeat(auto-fill, minmax(160px, 1fr));
   grid-gap: 1rem;
 }
-.comics-list img {
+.comics .comics-list img {
   width: 100%;
+}
+.comics .btn {
+  width: 150px;
+  line-height: 40px;
+  display: block;
+  margin: 0 auto;
+  text-align: center;
+  background: #0282f9;
+}
+.comics .btn a {
+  cursor: pointer;
+  color: #fff;
+  text-transform: uppercase;
 }
