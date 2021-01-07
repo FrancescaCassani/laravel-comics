@@ -14,11 +14,15 @@
         
     </head>
     <body>
-        @include('partials.header')
+        <div id="heroes">
+            
+            @include('partials.header')
 
-        @yield('content')
+            @yield('content')
 
-        @include('partials.footer')
+            @include('partials.footer')
+
+        </div>
 
     <script src="{{ asset('js/app.js')}}"></script>
     </body>

@@ -31638,14 +31638,36 @@ module.exports = function(module) {
 
 "use strict";
 __webpack_require__.r(__webpack_exports__);
-/* harmony import */ var vue__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! vue */ "./node_modules/vue/dist/vue.common.js");
-/* harmony import */ var vue__WEBPACK_IMPORTED_MODULE_1___default = /*#__PURE__*/__webpack_require__.n(vue__WEBPACK_IMPORTED_MODULE_1__);
+/* harmony import */ var vue__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! vue */ "./node_modules/vue/dist/vue.common.js");
+/* harmony import */ var vue__WEBPACK_IMPORTED_MODULE_0___default = /*#__PURE__*/__webpack_require__.n(vue__WEBPACK_IMPORTED_MODULE_0__);
 __webpack_require__(/*! ./bootstrap */ "./resources/js/bootstrap.js");
 
 
-var app = new vue__WEBPACK_IMPORTED_MODULE_1___default.a({
-  el: '#eroes',
-  data: {},
+var app = new vue__WEBPACK_IMPORTED_MODULE_0___default.a({
+  el: '#heroes',
+  data: {
+    navbar: [{
+      text: 'Characters'
+    }, {
+      text: 'Comics'
+    }, {
+      text: 'Movies'
+    }, {
+      text: 'Tv'
+    }, {
+      text: 'Games'
+    }, {
+      text: 'Collectibles'
+    }, {
+      text: 'Videos'
+    }, {
+      text: 'Fans'
+    }, {
+      text: 'News'
+    }, {
+      text: 'Shop'
+    }]
+  },
   created: function created() {},
   methods: {}
 });

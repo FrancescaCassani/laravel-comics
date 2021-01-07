@@ -1,0 +1,54 @@
+// LAYOUT
+.wrapper {
+    max-width: 1170px;
+    height: 100vh;
+    padding: 0 1rem;
+    margin: 0 auto;
+}
+
+.flex {
+    display: flex;
+}
+
+.a-c {
+    align-items: center;
+}
+
+.a-content {
+    align-content: center;
+}
+
+.jc-center {
+    justify-content: center;
+}
+
+.jc-between {
+    justify-content: space-between;
+}
+
+.no-list {
+    list-style: none;
+    text-decoration: none;
+}
+
+
+
+
+// SPACERS
+@each $size in 0, 1, 2, 3, 4, 6 {
+    .mt-#{$size} {
+        margin-top: $size + 0rem; 
+    }
+    .pt-#{$size} {
+        padding-top: $size + 0rem; 
+    }
+    .mb-#{$size} {
+        margin-bottom: $size + 0rem; 
+    }
+    .pb-#{$size} {
+        padding-bottom: $size + 0rem; 
+    }
+    .pr-#{$size} {
+        padding-right: $size + 0rem;
+    }
+}
