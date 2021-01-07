@@ -13,4 +13,9 @@ use Illuminate\Support\Facades\Route;
 |
 */
 
+// HOMEPAGE
 Route::get('/', 'HomeController@index')->name('home');
+
+
+// PRODUCT DETAIL
+Route::get('/comic/{id}', 'ComicController@show')->name('comic-detail');

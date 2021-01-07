@@ -8,7 +8,6 @@
 
 .wrapper {
   max-width: 1170px;
-  height: 100vh;
   padding: 0 1rem;
   margin: 0 auto;
 }
@@ -241,4 +240,21 @@
   padding-left: 4px;
   font-size: 0.8rem;
   color: #464646;
+}
+
+.hero {
+  height: 400px;
+  background-image: url("../images/bg-hero-home.jpg");
+  background-size: cover;
+  background-position: center;
+}
+
+.comics-list {
+  padding: 0;
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(200px, 1fr));
+  grid-gap: 1rem;
+}
+.comics-list img {
+  width: 100%;
 }
