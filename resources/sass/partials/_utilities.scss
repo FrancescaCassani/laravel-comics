@@ -6,8 +6,18 @@
     margin: 0 auto;
 }
 
+.wrapper-up {
+    width: 100%;
+    height: 40px;
+    background: $blue-col;
+}
+
 .flex {
     display: flex;
+}
+
+.text-end {
+    text-align: end;
 }
 
 .a-c {
@@ -24,6 +34,10 @@
 
 .jc-between {
     justify-content: space-between;
+}
+
+.jc-end {
+    justify-content: end;
 }
 
 .no-list {
@@ -51,4 +65,18 @@
     .pr-#{$size} {
         padding-right: $size + 0rem;
     }
+    .mr-#{$size} {
+        margin-right: $size + 0rem; 
+    }
+}
+
+
+
+//Position relative e absolute
+.p-r {
+    position: relative;
+}
+
+.p-a {
+    position: absolute;
 }

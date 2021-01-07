@@ -3,7 +3,7 @@
   padding: 0;
   box-sizing: border-box;
   font-family: sans-serif;
-  font-size: 16px;
+  font-size: 14px;
 }
 
 .wrapper {
@@ -13,8 +13,18 @@
   margin: 0 auto;
 }
 
+.wrapper-up {
+  width: 100%;
+  height: 40px;
+  background: #0282f9;
+}
+
 .flex {
   display: flex;
+}
+
+.text-end {
+  text-align: end;
 }
 
 .a-c {
@@ -31,6 +41,10 @@
 
 .jc-between {
   justify-content: space-between;
+}
+
+.jc-end {
+  justify-content: end;
 }
 
 .no-list {
@@ -58,6 +72,10 @@
   padding-right: 0rem;
 }
 
+.mr-0 {
+  margin-right: 0rem;
+}
+
 .mt-1 {
   margin-top: 1rem;
 }
@@ -76,6 +94,10 @@
 
 .pr-1 {
   padding-right: 1rem;
+}
+
+.mr-1 {
+  margin-right: 1rem;
 }
 
 .mt-2 {
@@ -98,6 +120,10 @@
   padding-right: 2rem;
 }
 
+.mr-2 {
+  margin-right: 2rem;
+}
+
 .mt-3 {
   margin-top: 3rem;
 }
@@ -116,6 +142,10 @@
 
 .pr-3 {
   padding-right: 3rem;
+}
+
+.mr-3 {
+  margin-right: 3rem;
 }
 
 .mt-4 {
@@ -138,6 +168,10 @@
   padding-right: 4rem;
 }
 
+.mr-4 {
+  margin-right: 4rem;
+}
+
 .mt-6 {
   margin-top: 6rem;
 }
@@ -156,4 +190,55 @@
 
 .pr-6 {
   padding-right: 6rem;
+}
+
+.mr-6 {
+  margin-right: 6rem;
+}
+
+.p-r {
+  position: relative;
+}
+
+.p-a {
+  position: absolute;
+}
+
+.navbar-info {
+  max-width: 1170px;
+  margin: 0 auto;
+}
+.navbar-info h4 {
+  color: #fff;
+}
+.navbar-info i {
+  bottom: 0.3rem;
+  padding-left: 4px;
+  font-size: 1rem;
+  color: #fff;
+}
+
+.navbar-brand img {
+  width: 80%;
+}
+
+.navbar-nav .sort {
+  bottom: 0.1rem;
+  color: #0282f9;
+}
+.navbar-nav a {
+  color: #464646;
+  text-decoration: none;
+  text-transform: uppercase;
+}
+.navbar-nav .search input {
+  border: 0;
+  outline: none;
+  color: #000;
+}
+.navbar-nav .search i {
+  top: 0.1rem;
+  padding-left: 4px;
+  font-size: 0.8rem;
+  color: #464646;
 }

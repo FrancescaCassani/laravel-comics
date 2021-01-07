@@ -1,0 +1,44 @@
+.navbar-info {
+    max-width: 1170px;
+    margin: 0 auto;
+    h4 {
+        color: $white; 
+    }
+    i {
+        bottom: 0.3rem;
+        padding-left: 4px;
+        font-size: 1rem;
+        color: $white; 
+    }
+}
+.navbar-brand {
+    img {
+        width: 80%;
+    }
+}
+
+
+.navbar-nav {
+    .sort {
+        bottom: 0.1rem;
+        color: $blue-col;
+    }
+    a {
+        color: $text-col;
+        text-decoration: none;
+        text-transform: uppercase;
+    }
+    .search {
+        input {
+            border: 0;
+            outline: none;
+            color: $black;
+        }
+        i {
+            top: 0.1rem;
+            padding-left: 4px;
+            font-size: 0.8rem;
+            color: $text-col;
+        }
+    }
+}
