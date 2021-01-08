@@ -11,6 +11,12 @@
     background: $blue-col;
 }
 
+.wrapper-info {
+    width: 100%;
+    height: 150px;
+    background: $blue-col;
+}
+
 .flex {
     display: flex;
 }
@@ -48,7 +54,7 @@
 
 
 // SPACERS
-@each $size in 0, 1, 2, 3, 4, 6 {
+@each $size in 0, 1, 2, 3, 4, 6, 8 {
     .mt-#{$size} {
         margin-top: $size + 0rem; 
     }
@@ -66,6 +72,9 @@
     }
     .mr-#{$size} {
         margin-right: $size + 0rem; 
+    }
+    .pl-#{$size} {
+        padding-left: $size + 0rem;
     }
 }
 

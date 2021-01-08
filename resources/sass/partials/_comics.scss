@@ -1,6 +1,6 @@
 .comics {
     .line {
-        height: 16px;
+        height: 1rem;
         background: $blue-col;
     }
     background: $black;
@@ -12,6 +12,10 @@
         img {
             width: 100%;
         }
+    }
+    h3 {
+        padding: 10px;
+        color: $white;
     }
     .btn {
         width: 150px;
@@ -26,5 +30,18 @@
             text-transform: uppercase;
         }
     }
+}
+.wrapper-info {
+    a {
+        color: $white;
+    }
+    img {
+        width: 50px;
+    }
+}
+.white-space {
+    z-index: 1;
+    height: 6rem;
+    background: $white;
 }
 
