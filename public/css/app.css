@@ -437,3 +437,20 @@
   color: #868686;
   padding-right: 1rem;
 }
+
+.comic-detail .hero-detail {
+  z-index: 0;
+}
+.comic-detail .hero-detail .comic-cover {
+  z-index: 1;
+  bottom: -3rem;
+  left: 19%;
+}
+.comic-detail .blue-space {
+  height: 50px;
+  background: #0282f9;
+}
+.comic-detail .details {
+  z-index: 1;
+  background: white;
+}

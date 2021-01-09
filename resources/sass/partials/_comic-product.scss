@@ -1,0 +1,19 @@
+.comic-detail {
+    .hero-detail {
+        z-index: 0;
+        .comic-cover {
+            z-index: 1;
+            bottom: -3rem;
+            left: 19%;
+        }
+    }
+    .blue-space {
+        height: 50px;
+        background: $blue-col;
+    }
+    .details {
+        z-index: 1;
+        background: white;
+    }
+    
+}
