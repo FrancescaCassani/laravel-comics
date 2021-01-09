@@ -3,15 +3,18 @@
 @section('content')
 
     <main class="wrap-comics mt-1"> 
-        <section class="hero">
-            <div class="wrapper">
+        <section class="hero p-r">
+            <div class="wrapper p-a cover">
                 <img src="{{ asset('images/cover-home.jpg') }}" alt="teen go">
+            </div>
+            <div class="hero-text p-a">
+                <h1>Current series</h1>
             </div>
         </section>
 
         <div class="comics">
             <div class="line"></div>
-            <div class="wrapper pt-2 pb-6">
+            <div class="wrapper pt-2 pb-2">
                 <ul class="comics-list no-list mb-3">
                     @foreach ($comics as $comic)
                         <li>

@@ -16,8 +16,8 @@
             <img src="{{ asset('images/logo.png') }}" alt="logo dc">
         </a>
 
-        <nav class="navbar-nav mt-3">
-            <ul class="flex no-list">
+        <nav class="navbar-nav mt-4">
+            <ul class="flex a-c no-list">
                 <li class="pr-1">
                     <a href="#"> Characters </a>
                 </li>
@@ -47,16 +47,17 @@
                 </li>
                 <li class="pr-1 p-r">
                     <a href="#"> Shop 
-                        <i class="fas fa-sort-down p-r sort"></i>
+                        <i class="fas fa-sort-down p-a sort"></i>
                     </a>
                 </li>
                 <li>
-                    <div class="search p-r">
+                    <div class="search p-r pl-4">
                 
-                        <input class="text-end" 
+                        <input 
+                        class="text-end pr-2" 
                         type="text" 
                         name="search" 
-                        placeholder="Search">   
+                        placeholder="Search">
                         <i class="fas fa-search p-a"></i>     
                     </div>
                 </li>

@@ -20,25 +20,30 @@
 
 .navbar-nav {
     .sort {
-        bottom: 0.1rem;
+        padding-left: 0.4rem;
+        bottom: 0.4rem;
         color: $blue-col;
     }
     a {
-        color: $text-col;
+        color: $black;
+        font-weight: bold;
         text-decoration: none;
         text-transform: uppercase;
     }
     .search {
         input {
             border: 0;
+            border-bottom: 2px solid $blue-col;
             outline: none;
-            color: $black;
+            font-weight: bold;
+            max-width: 120px;
         }
         i {
-            top: 0.1rem;
-            padding-left: 4px;
-            font-size: 0.8rem;
+            bottom: 0.4rem;
+            right: 0.2rem;
+            font-size: 1.1rem;
             color: $text-col;
         }
     }
+
 }

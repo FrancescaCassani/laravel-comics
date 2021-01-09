@@ -280,23 +280,27 @@
 }
 
 .navbar-nav .sort {
-  bottom: 0.1rem;
+  padding-left: 0.4rem;
+  bottom: 0.4rem;
   color: #0282f9;
 }
 .navbar-nav a {
-  color: #464646;
+  color: #000;
+  font-weight: bold;
   text-decoration: none;
   text-transform: uppercase;
 }
 .navbar-nav .search input {
   border: 0;
+  border-bottom: 2px solid #0282f9;
   outline: none;
-  color: #000;
+  font-weight: bold;
+  max-width: 120px;
 }
 .navbar-nav .search i {
-  top: 0.1rem;
-  padding-left: 4px;
-  font-size: 0.8rem;
+  bottom: 0.4rem;
+  right: 0.2rem;
+  font-size: 1.1rem;
   color: #464646;
 }
 
@@ -305,6 +309,27 @@
   background-image: url("../images/bg-hero-home.jpg");
   background-size: cover;
   background-position: center;
+  z-index: 0;
+}
+.hero .cover {
+  bottom: -1.25rem;
+  left: 24%;
+  z-index: 1;
+}
+.hero .hero-text {
+  bottom: -1rem;
+  left: 18%;
+  z-index: 2;
+  width: 250px;
+  line-height: 50px;
+  text-align: center;
+  background: #0282f9;
+}
+.hero .hero-text h1 {
+  font-size: 1.5rem;
+  cursor: pointer;
+  color: #fff;
+  text-transform: uppercase;
 }
 
 .comics {
@@ -344,8 +369,8 @@
 .wrapper-info a {
   color: #fff;
 }
-.wrapper-info img {
-  width: 50px;
+.wrapper-info a img {
+  width: 45px;
 }
 
 .white-space {
@@ -361,7 +386,7 @@
 }
 
 .footer-up {
-  height: 390px;
+  height: 410px;
 }
 .footer-up h4 {
   color: #fff;

@@ -110,7 +110,7 @@
             </div>
         </div>
 
-        <div class="rights-reserved pt-3 pl-1">
+        <div class="rights-reserved pt-2 pl-1">
             <p>All Site Content TM and © 2020 DC Entertainment, unless otherwise noted here. All rights reserved.</p>
             <a href="#" class="no-list"> <small>Coockies Settings</small> </a>
         </div>
@@ -123,7 +123,7 @@
 
 
     <section class="footer-down p-r">
-        <div class="footer-down-content flex jc-between pl-2 pr-2 pt-2">
+        <div class="footer-down-content flex jc-between pl-2 pr-2 pt-3">
             <div class="btn">
                 <a href="#" class=" no-list">Sign-up now!</a>
             </div>
