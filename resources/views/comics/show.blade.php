@@ -38,32 +38,32 @@
         </section>
 
 
-        <section class="wrapper info flex">
-            <div class="talent">
-                <h1>TALENT</h1>
-                <div class="art-by flex">
+        <section class="info flex jc-between p-r">
+            <div class="wrapper talent p-a pt-2">
+                <h1 class="pb-2">TALENT</h1>
+                <div class="art-by flex pb-1">
                     <h4>Art by:</h4>
-                    <h4>Sandy Jarrel, Agnes Garbowska</h4>
+                    <a href="#" class="no-list"><h4>Sandy Jarrel, Agnes Garbowska</h4></a>
                 </div>
-                <div class="written-by flex">
+                <div class="written-by flex pb-1 pt-1">
                     <h4>Written by:</h4>
-                    <h4>P.C. Morrissey, Heather Nuhfer</h4>
+                    <a href="#" class="no-list"><h4>P.C. Morrissey, Heather Nuhfer</h4></a>
                 </div>
             </div>
 
-            <div class="specs">
-                <h1>SPECS</h1>
-                <div class="series flex">
+            <div class="wrapper specs p-a pt-2">
+                <h1 class="pb-2">SPECS</h1>
+                <div class="series flex pb-1">
                     <h4>Series:</h4>
-                    <h4>{{ $comic['title'] }} 2020</h4>
+                    <a href="#" class="no-list"><h4>{{ $comic['title'] }} 2020</h4></a>
                 </div>
-                <div class="price flex">
+                <div class="price flex pb-1 pt-1">
                     <h4>U.S. Price:</h4>
-                    <h4>{{ $comic['price'] }}</h4>
+                    <h4 class="pl-1">{{ $comic['price'] }}</h4>
                 </div>
-                <div class="sale flex">
-                    <h4>On Sale Date</h4>
-                    <h4>Nov 10 2020</h4>
+                <div class="sale flex pb-1 pt-1">
+                    <h4>On Sale Date:</h4>
+                    <h4 class="pl-1">Nov 10 2020</h4>
                 </div>
             </div>
         </section>

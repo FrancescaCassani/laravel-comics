@@ -11,9 +11,38 @@
         height: 50px;
         background: $blue-col;
     }
-    .details {
+    .details, .info  {
         z-index: 1;
         background: white;
     }
-    
+    .info {
+        color: $text-detail;
+        height: 250px;
+        background: $back-detail;
+        &::before {
+            content: "";
+            display: table;
+            height: 1px;
+            width: 100%;
+            background: grey;
+        }
+        a {
+            color: $blue-col;
+            padding-left: 1rem;
+        }
+        .talent {
+            left:20%;
+        }
+        .specs {
+            right:40%;
+        }
+        .art-by,
+        .written-by,
+        .series,
+        .price,
+        .sale {
+            border-bottom: 1px solid grey;
+        }
+    }
+
 }

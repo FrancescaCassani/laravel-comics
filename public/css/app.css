@@ -450,7 +450,36 @@
   height: 50px;
   background: #0282f9;
 }
-.comic-detail .details {
+.comic-detail .details, .comic-detail .info {
   z-index: 1;
   background: white;
+}
+.comic-detail .info {
+  color: #003f5e;
+  height: 250px;
+  background: #f6f6f6;
+}
+.comic-detail .info::before {
+  content: "";
+  display: table;
+  height: 1px;
+  width: 100%;
+  background: grey;
+}
+.comic-detail .info a {
+  color: #0282f9;
+  padding-left: 1rem;
+}
+.comic-detail .info .talent {
+  left: 20%;
+}
+.comic-detail .info .specs {
+  right: 40%;
+}
+.comic-detail .info .art-by,
+.comic-detail .info .written-by,
+.comic-detail .info .series,
+.comic-detail .info .price,
+.comic-detail .info .sale {
+  border-bottom: 1px solid grey;
 }
