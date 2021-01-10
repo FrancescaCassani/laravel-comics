@@ -12,29 +12,28 @@
 
         <section class="blue-space"></section>
 
-        <section class="details p-r pb-3">
-            <div class="wrapper">
-                <h1> {{ $comic['title'] }} </h1>
-            </div>
-
-            <div class="wrapper flex jc-between">
-                <div class="price flex jc-between"> 
-                    <h3>U.S. Price: ${{ $comic['price'] }} </h3>
-                    <h3>Available on 11/10</h3>
+        <section class="wrapper details flex mt-2">
+            <article class="left pt-1 pb-1 mr-1">
+                <h2 class="">{{$comic['title']}}</h2>
+                <div class="info-box flex jc-between mt-2 mb-2">
+                    <div class="price flex jc-between">
+                        U.S. Price: ${{ $comic['price'] }}
+                        <span class="txtUpper">
+                            Available on 11/10
+                        </span>
+                    </div>
+                    <span class="availability">
+                        Check Availability <i class="fas fa-angle-down"></i>
+                    </span>
                 </div>
-                <div class="availability p-r flex jc-end">
-                    <h3>Check Avaibility</h3>
-                    <i class="fas fa-sort-down p-a"></i>
+                <div class="descr">
+                    {!! $comic['body'] !!}
                 </div>
-            </div>
-
-            <div class="wrapper">
-                <div class="text"> {!! $comic['body'] !!} </div>
-
-                <div class="img-advertisement">
-                    <img src="{{ asset('images/adv.png') }}" alt="adv">
-                </div>
-            </div>
+            </article>
+            <aside class="right adv mt-1 mb-1">
+                <h3>Advertisement</h3>
+                <img src="{{ asset('images/lateral.png')}}" alt="Advertising">
+            </aside>
         </section>
 
 

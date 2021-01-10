@@ -11,6 +11,26 @@
         height: 50px;
         background: $blue-col;
     }
+    .details {
+        max-width: 950px;
+        img {
+            width: 100%;
+        }
+        .info-box {
+            border-bottom: solid 1px;
+            color: $white;
+            font-weight: bold;
+            .price {
+                flex-grow: 1;
+                border-right: 1px solid;
+            }
+            .price,
+            .availability {
+                padding: 20px;
+                background: $text-green;
+            }
+        }
+    }
     .details, .info  {
         z-index: 1;
         background: white;
