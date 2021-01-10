@@ -38,7 +38,7 @@
                     <ul class="wrapper flex a-c jc-center no-list pt-3">
                         <li class="pr-2 mr-1 flex a-c">
                             <img src="{{ asset('images/digital-comics.png') }}" alt="dc">
-                            <h4 class="pl-1">Digital comics</h4>
+                            <h4 class="pl-3">Digital comics</h4>
                         </li>
                         <li class="pr-2 mr-1 flex a-c">
                             <img src="{{ asset('images/merchandise.png') }}" alt="dc">

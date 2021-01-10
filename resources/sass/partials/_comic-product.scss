@@ -24,25 +24,31 @@
             display: table;
             height: 1px;
             width: 100%;
-            background: grey;
+            background: $border-col;
         }
         a {
             color: $blue-col;
             padding-left: 1rem;
         }
         .talent {
-            left:20%;
+            left:25%;
         }
         .specs {
-            right:40%;
+            right:30%;
         }
         .art-by,
         .written-by,
         .series,
         .price,
         .sale {
-            border-bottom: 1px solid grey;
+            border-bottom: 1px solid $border-col;
         }
     }
-
+    .info-detail::before {
+        content: "";
+        display: table;
+        height: 1px;
+        width: 100%;
+        background: $border-col;
+    }
 }

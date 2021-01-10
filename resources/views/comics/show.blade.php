@@ -67,6 +67,32 @@
                 </div>
             </div>
         </section>
+
+        <section class="info-detail">
+            <div class="wrapper-info-detail p-r">
+                <a href="#" class="no-list">
+                    <ul class="wrapper flex a-c jc-center no-list pt-3">
+                        <li class="pr-2 mr-1 flex a-c border">
+                            <h5 class="pr-3">Digital comics</h5>
+                            <img src="{{ asset('images/digital.png')}}" alt="dc">
+                        </li>
+                        <li class="pr-2 mr-1 flex a-c">
+                            <h5 class="pr-3">SHOP DC</h5>
+                            <img src="{{ asset('images/shop.png')}}" alt="dc">
+                        </li>
+                        <li class="pr-2 mr-1 flex a-c">
+                            <h5 class="pr-3">Comic shop leocator</h5>
+                            <img src="{{ asset('images/locator.png')}}" alt="dc">
+                        </li>
+                        <li class="pr-2 mr-1 flex a-c">
+                            <h5 class="pr-3">Subscriptions</h5>
+                            <img src="{{ asset('images/subscription.png')}}" alt="dc">
+                        </li>
+                    </ul>
+                </a>
+                
+            </div>
+        </section>
     </main>
     
 @endsection
